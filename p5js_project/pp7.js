@@ -15,7 +15,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 600,WEBGL).parent(sketchcontain7);
+  createCanvas(600, 600,WEBGL);
   cols = floor(width / w / 2);
   rows = floor(height / w / 2);
 

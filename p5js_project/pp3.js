@@ -11,7 +11,7 @@ let dreamingSpeed = 2.0;
 let dreamingColor = [255, 182, 193];
 
 function setup() {
-  createCanvas(400, 400).parent(sketchcontain3);
+  createCanvas(400, 400);
   //initial set up light state, time elapsed and start time
   sleepStage = "light";
   elapsedTime = 0;

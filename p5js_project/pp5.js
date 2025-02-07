@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(600, 600).parent(sketchcontain5);
+  createCanvas(600, 600);
   noStroke();
 }
 

@@ -5,7 +5,7 @@ let onX2
 let onY2
 
 function setup() {
-  createCanvas(400, 400).parent(sketchcontain2);
+  createCanvas(400, 400);
 }
 
 function draw() {

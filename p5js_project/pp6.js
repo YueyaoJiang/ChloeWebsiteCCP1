@@ -16,7 +16,7 @@ const spacing = 85;
 
 
 function setup() {
-  createCanvas(600, 600).parent(sketchcontain6);
+  createCanvas(600, 600);
   noStroke();
 }
 
