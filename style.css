@@ -1,0 +1,131 @@
+.flex-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    gap: 0px; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+   background-color: rgb(150, 149, 149); 
+   text-decoration: none;
+    
+}
+
+.black{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    
+   
+   
+
+            text-align: center;
+            line-height: 100px;
+            font-size: 50px;
+            color: white; 
+            text-align: center;
+            font-family:Arial, Helvetica, sans-serif;
+
+            
+        }
+
+
+
+.grey{
+    
+        width: 1450px;
+        height: 500px;
+        background-color: rgb(208, 208, 208);
+        margin: 20px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 100px;
+        overflow: hidden;
+        transition: all 0.3s ease-in-out; 
+    }
+    
+    
+    .grey:hover {
+        transform: translateY(-10px); 
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); 
+        backdrop-filter: blur(10px); 
+    }
+    
+   
+        .AboutMe {
+            text-align: center;
+            font-size: 40px;
+            color: rgb(11, 11, 11); 
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+        }
+        .Detail{
+            text-align: center;
+            font-size: 25px;
+            color: rgb(11, 11, 11); 
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.5;
+
+        }
+
+
+.black2{
+    
+        width: 100%;
+        height: 200px;
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+}
+
+.PastWorks{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(180, 180, 180);
+
+}
+
+.works-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    height: 500px; /
+    
+}
+
+.PastWorks, .FutureWorks, .GameWorks {
+    flex: 1; /* 等分宽度 */
+    height: 100%; 
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    background-color: rgb(180, 180, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.PastWorks { background-color: rgb(180, 180, 180); } 
+.FutureWorks { background-color: rgb(155, 155, 155); } 
+.GameWorks { background-color: rgb(133, 132, 132); } 
+
+.PastWorks:hover, .FutureWorks:hover, .GameWorks:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); 
+    backdrop-filter: blur(10px); 
+    transition: all 0.3s ease-in-out;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
